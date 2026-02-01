@@ -13,7 +13,8 @@ for i , num in enumerate(arr) :     # here we are telling the for loop that go t
     if needed in want :             # codition : if needed num appears in the dict print the needed and the num we that got us the needed num 
         print(needed,num) 
         break                       # After getting the num print the values and break thee loop
-    want[num] = i                   # this line save the num at its index
+    want[num] = i                   # this line save the num and index in the dict
 
     # here the i , num represent that ,
-    # im standing at this index looking at the num in the arr
+
+    # Logic : im standing at this index looking at the num in the arr
